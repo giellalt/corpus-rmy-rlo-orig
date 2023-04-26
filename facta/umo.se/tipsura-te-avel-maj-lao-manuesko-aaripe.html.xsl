@@ -141,7 +141,7 @@
     -->
     <xsl:variable name="mlangs">
         <!-- <language xml:lang="dan"/> -->
-    <language xml:lang="rmy-rlo"/><language xml:lang="swe"/></xsl:variable>
+    <language xml:lang="swe"/><language xml:lang="rmy-rlo"/></xsl:variable>
 
     <!--
         This is automatically added by add_files_to_corpus if a parallel file
@@ -176,11 +176,11 @@
         <parallel_text xml:lang="smn" location=""/>
         <parallel_text xml:lang="sms" location=""/>
         <parallel_text xml:lang="swe" location="tips-for-battre-sjalvkansla.html"/>
-    <parallel_text location="ideori-sar-te-vortos-iri-zor.html" xml:lang="rmy-rka"/>
-<parallel_text location="tipsi-bao-poukar-korkorioset.html" xml:lang="rmn"/>
-<parallel_text location="hilprepha-gla-fedigare-soluskansla.html" xml:lang="rmu"/>
-<parallel_text location="rejchern.html" xml:lang="yid"/>
-<parallel_text location="tipsi-te-lel-fendide-iegohoiba.html" xml:lang="rmf"/>
+    <parallel_text xml:lang="rmy-rka" location="ideori-sar-te-vortos-iri-zor.html"/>
+<parallel_text xml:lang="rmn" location="tipsi-bao-poukar-korkorioset.html"/>
+<parallel_text xml:lang="rmu" location="hilprepha-gla-fedigare-soluskansla.html"/>
+<parallel_text xml:lang="yid" location="rejchern.html"/>
+<parallel_text xml:lang="rmf" location="tipsi-te-lel-fendide-iegohoiba.html"/>
 </xsl:variable>
 
     <!--

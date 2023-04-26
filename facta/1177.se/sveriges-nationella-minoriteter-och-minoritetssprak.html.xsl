@@ -141,7 +141,7 @@
     -->
     <xsl:variable name="mlangs">
         <!-- <language xml:lang="dan"/> -->
-    <language xml:lang="rmy-rlo"/><language xml:lang="swe"/></xsl:variable>
+    <language xml:lang="swe"/><language xml:lang="rmy-rlo"/></xsl:variable>
 
     <!--
         This is automatically added by add_files_to_corpus if a parallel file
@@ -176,11 +176,11 @@
         <parallel_text xml:lang="smn" location=""/>
         <parallel_text xml:lang="sms" location=""/>
         <parallel_text xml:lang="swe" location="slash.html"/>
-    <parallel_text location="sveriges-nationella-minoriteter-och-minoritetssprak.html" xml:lang="rmu"/>
-<parallel_text location="sveriges-nationella-minoritetssprak.html" xml:lang="rmf"/>
-<parallel_text location="sveriges-nationella-minoriteter-och-minoritetssprak.html" xml:lang="rmy-rka"/>
-<parallel_text location="sveriges-nationella-minoriteter-och-minoritetssprak.html" xml:lang="rmn"/>
-<parallel_text location="sveriges-nationella-minoriteter-och-minoritetssprak.html" xml:lang="yid"/>
+    <parallel_text xml:lang="rmu" location="sveriges-nationella-minoriteter-och-minoritetssprak.html"/>
+<parallel_text xml:lang="rmf" location="sveriges-nationella-minoritetssprak.html"/>
+<parallel_text xml:lang="rmy-rka" location="sveriges-nationella-minoriteter-och-minoritetssprak.html"/>
+<parallel_text xml:lang="rmn" location="sveriges-nationella-minoriteter-och-minoritetssprak.html"/>
+<parallel_text xml:lang="yid" location="sveriges-nationella-minoriteter-och-minoritetssprak.html"/>
 </xsl:variable>
 
     <!--
